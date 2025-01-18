@@ -34,4 +34,9 @@ docker compose down # this will remove and stop everything
 
                 - you will need to connect to the paperless db, by adding a new connection to: host: paperless-db-1, port: 5432, username: paperless, password: paperless
                 - the above will help you manage the db and run queries
+## SQL files
+The folder contains sql scripts to be used:
+ - create the specific Ferdi database: create_tabes.sql
+ - create paperless tags: create_tags.sql
+ - get different kind of data; these will be used by the above mentioned notebook
             
