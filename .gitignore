@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+OCRized_texts/*
+!OCRized_texts/readme
